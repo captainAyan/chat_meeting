@@ -42,10 +42,11 @@ export default function JoinForm() {
         />
 
         <p className="justified">
-          ⚠️😒 Keep it clean, your conversations are{" "}
-          <strong>NOT being watched</strong> ❌🕵️‍♂️❌, So don't impair the
-          integrity of our community. Chats are only delivered through the
-          server <strong>NOT stored</strong>.
+          ⚠️<strong>TIPS:</strong> Your conversations are{" "}
+          <strong>NOT being stored</strong> ❌🕵️‍♂️❌. Chats are only delivered
+          through the server <strong>NOT stored</strong>. Add{" "}
+          <strong>Random Numbers</strong> to the room id, so that people can't
+          brute force into your room.
         </p>
 
         <button className="button-primary" type="submit">
