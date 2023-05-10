@@ -3,13 +3,13 @@
   <p align="center">
     A chat room application
     <br />
-    <br /><a href="#">Demo 🚀</a>
+    <br /><a href="https://chat-meeting.onrender.com/">Demo 🚀</a>
     ·
     <a href="https://github.com/captainAyan/chat_meeting/issues">Report Bug 😓</a>
   </p>
 </p>
 
-<img src="https://github.com/captainayan/chat_meeting/blob/main/assets/screenshot1.png?raw=true"/>
+<img src="https://raw.githubusercontent.com/captainAyan/chat_meeting/master/assets/screenshot1.png"/>
 
 ## About
 Web based, anonymous, ephemeral, chat room application build using the MERN Stack
