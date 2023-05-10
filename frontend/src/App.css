@@ -1,0 +1,91 @@
+
+@import url("./style/Normalize.css");
+@import url("./style/Skeleton.css");
+
+/* @import url("./style/Dark.css"); */
+
+.container {
+  max-width: 800px;
+  height: 100vh;
+  display: table;
+}
+
+.container section {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+p.justified {
+  text-align: justify;
+  font-size: small;
+}
+
+.hide-on-phone {
+  display: none;
+}
+
+@media (min-width: 550px) {
+  .hide-on-phone {
+    display: block;
+  }
+}
+
+.chat-container {
+  border: 1px solid #E1E1E1;
+  border-radius: 4px;
+  height: 60vh;
+}
+
+.chat-container .chat-box {
+  height: 100%;
+}
+
+.chat-container .chat-box .chat-message-container {
+  height: 80%;
+  overflow-y: scroll;
+}
+
+.chat-container .chat-box .chat-form-container {
+  padding: 10px;
+  /* border-top: 1px #E1E1E1 solid; */
+}
+
+/* message design STARTS HERE ========================== */
+.message {
+  margin: 20px 15px 20px 10px;
+  width: auto;
+  height: auto;
+}
+
+.avatar .circle.img {
+  background-color: #ccc;
+  border-radius: 50%;
+  height: 4rem;
+  text-align: center;
+  width: 4rem;
+  float: left;
+}
+
+.avatar .initials {
+  font-size: 2rem; /* 50% of parent */
+  line-height: 1;
+  position: relative;
+  color: white;
+  font-weight: 500;
+  top: 1rem; /* 25% of parent */
+}
+
+.avatar .data {
+  float: left;
+  margin-left: 10px;
+}
+
+.avatar .data .username {
+  font-weight: 700;
+}
+
+.avatar .body {
+  margin-left: 50px;
+}
+
+/* message design ENDS HERE ============================ */
